@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1603907854108" stop="1603907854407" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Weight Watchers search possitive scenarios</name>
+    <title>Weight Watchers search possitive scenarios</title>
+    <test-cases>
+        <test-case start="1603907854261" stop="1603907854263" status="passed">
+            <name>Given Open Chrome Browser with url</name>
+            <title>Given Open Chrome Browser with url</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854374" stop="1603907854384" status="broken">
+            <name>When Assert loaded page title matches WW (Weight Watchers): Weight Loss &amp;amp; Wellness Help | WW USA</name>
+            <title>When Assert loaded page title matches WW (Weight Watchers): Weight Loss &amp;amp; Wellness Help | WW USA</title>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at stepdefinition.WWSearchStep.loadedPageTitle(WWSearchStep.java:25)
+	at ✽.When Assert loaded page title matches WW (Weight Watchers): Weight Loss &amp;amp; Wellness Help | WW USA(/Users/fatemaislam/Documents/workspace/wwAssesment/features/ww.feature:7)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854388" stop="1603907854388" status="pending">
+            <name>And On the right corner of the page, click on Find a Workshop</name>
+            <title>And On the right corner of the page, click on Find a Workshop</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854391" stop="1603907854391" status="pending">
+            <name>And Assert loaded page title contains “Find WW Studios &amp; Meetings Near You | WW USA”</name>
+            <title>And Assert loaded page title contains “Find WW Studios &amp; Meetings Near You | WW USA”</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854394" stop="1603907854394" status="pending">
+            <name>And In the search field, search for meetings for zip code: "10011"</name>
+            <title>And In the search field, search for meetings for zip code: "10011"</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854397" stop="1603907854397" status="pending">
+            <name>And Print the title of the first result and the distance (located on the right of location title/name)</name>
+            <title>And Print the title of the first result and the distance (located on the right of location title/name)</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854399" stop="1603907854399" status="pending">
+            <name>And Click on the first search result and then, verify displayed location name/title matches with the name of the first searched result that was clicked</name>
+            <title>And Click on the first search result and then, verify displayed location name/title matches with the name of the first searched result that was clicked</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854401" stop="1603907854401" status="pending">
+            <name>And From this location page, print TODAY’s hours of operation (located towards the bottom of the page)</name>
+            <title>And From this location page, print TODAY’s hours of operation (located towards the bottom of the page)</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854403" stop="1603907854403" status="pending">
+            <name>And Create a method to print the number of meeting the each person(under the scheduled time) has a particular day of the week</name>
+            <title>And Create a method to print the number of meeting the each person(under the scheduled time) has a particular day of the week</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1603907854404" stop="1603907854404" status="pending">
+            <name>Then close driver</name>
+            <title>Then close driver</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="8633@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Weight Watchers search possitive scenarios"/>
+        <label name="feature" value="Weight Watchers search validations"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

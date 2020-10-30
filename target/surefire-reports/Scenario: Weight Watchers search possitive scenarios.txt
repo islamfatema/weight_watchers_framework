@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Weight Watchers search possitive scenarios
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 8, Time elapsed: 0.172 sec <<< FAILURE! - in Scenario: Weight Watchers search possitive scenarios
+Scenario: Weight Watchers search possitive scenarios  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at stepdefinition.WWSearchStep.loadedPageTitle(WWSearchStep.java:25)
+	at ✽.When Assert loaded page title matches WW (Weight Watchers): Weight Loss &amp; Wellness Help | WW USA(/Users/fatemaislam/Documents/workspace/wwAssesment/features/ww.feature:7)
+
